@@ -1,2 +1,2 @@
-print("Hello! I am Harjashan.")
-print("Starting my journey to Chitkara → Deakin.")
+name = input("What is your name?")
+print("Hello", name)
