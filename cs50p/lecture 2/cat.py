@@ -1,4 +1,11 @@
-n = 0 
-while n <= 3 :
-    print("MEOW")
-    n = n + 1
+while True :
+    n = int(input("Enter your number: "))
+    if n < 0 :
+        continue
+    else :
+        break
+for _ in range(n):
+    print("Meow")
+
+
+ 
