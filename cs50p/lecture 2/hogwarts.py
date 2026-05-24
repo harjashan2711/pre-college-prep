@@ -1,0 +1,8 @@
+students = [
+    {"name" : "harry" , "house" : "gryffindor" , "patronus" : "stag"},
+    {"name" : "hermione" , "house" : "gryffindor" , "patronus" : "otter"},
+    {"name" : "ron" , "house" : "gryffindor" , "patronus" : "jack russell terrier"},
+    {"name" : "draco" , "house" : "slytherin" , "patronus" : None}
+]
+for student in students :
+    print(student["name"] , student["house"] , student["patronus"],sep = ", ")
